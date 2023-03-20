@@ -1,24 +1,41 @@
-# README
+# PIZZAS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an API that tracks pizza restaurants.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+To get started with the app, clone the repo and then install the needed gems: `bundle install`.
 
-* System dependencies
+Next, migrate the database: `rails db:migrate`.
 
-* Configuration
+Seed the database with some initial data: `rails db:seed`.
 
-* Database creation
+Finally, start the server: `rails server`.
 
-* Database initialization
+You can then access the API at `http://localhost:3000/`.
 
-* How to run the test suite
+## API Endpoints
 
-* Services (job queues, cache servers, search engines, etc.)
+The following endpoints are available in the API:
 
-* Deployment instructions
+### Restaurants
 
-* ...
+- **DELETE** /restaurants/:id - Deletes a restaurant and its Pizzas.
+- **GET** /restaurants/ - Retrieves all restaurant and their Pizzas.
+- **GET** /restaurants/:id - Retrieves a specific restaurant and its Pizzas by its id.
+
+### Pizzas
+
+- **GET** /pizzas - Returns available pizzas.
+
+### RestaurantPizzas
+
+- **POST** /restaurant_pizzas - Allows creation of a pizza for a restaurant already in existence.
+
+
+
+_This project has been done by:_
+
+Shaun Mwangi
+
+**This project is open source under an MIT open source licence.**
