@@ -20,17 +20,17 @@ The following endpoints are available in the API:
 
 ### Restaurants
 
-- **DELETE** /restaurants/:id - Deletes a restaurant and its Pizzas.
-- **GET** /restaurants/ - Retrieves all restaurant and their Pizzas.
-- **GET** /restaurants/:id - Retrieves a specific restaurant and its Pizzas by its id.
+- **DELETE** `/restaurants/:id` - Deletes a restaurant and its Pizzas.
+- **GET** `/restaurants/` - Retrieves all restaurant and their Pizzas.
+- **GET** `/restaurants/:id` - Retrieves a specific restaurant and its Pizzas by its id.
 
 ### Pizzas
 
-- **GET** /pizzas - Returns available pizzas.
+- **GET** `/pizzas` - Returns available pizzas.
 
 ### RestaurantPizzas
 
-- **POST** /restaurant_pizzas - Allows creation of a pizza for a restaurant already in existence.
+- **POST** `/restaurant_pizzas` - Allows creation of a pizza for a restaurant already in existence.
 
 
 
