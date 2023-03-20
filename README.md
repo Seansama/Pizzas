@@ -1,6 +1,6 @@
 # PIZZAS
 
-This is an API that tracks pizza restaurants.
+This is an API that tracks pizza restaurants and their products.
 
 ## Getting Started
 
