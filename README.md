@@ -4,6 +4,8 @@ This is an API that tracks pizza restaurants and their products.
 
 ## Getting Started
 
+_For those that intend to make contributions or modify this project to suit their needs._
+
 To get started with the app, clone the repo and then install the needed gems: `bundle install`.
 
 Next, migrate the database: `rails db:migrate`.
@@ -13,6 +15,12 @@ Seed the database with some initial data: `rails db:seed`.
 Finally, start the server: `rails server`.
 
 You can then access the API at `http://localhost:3000/`.
+
+## API Live link
+
+_In case you just want to connect the API to a frontend solution without interacting with the API code itself_:
+
+https://pizzas-rs57.onrender.com/
 
 ## API Endpoints
 
